@@ -1,4 +1,6 @@
 import './App.css';
+import './Components/Table.css';
+import './Components/Input-form.css';
 import {Content} from "./Components/Content";
 
 function App() {
