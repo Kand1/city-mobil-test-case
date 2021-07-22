@@ -1,0 +1,72 @@
+.Main-table {
+    grid-area: t;
+    display: grid;
+    grid-template-columns:  1fr ;
+    grid-template-areas: "tbl";
+    height:52vh;
+}
+
+.Main-table table {
+
+    margin: 0 5% 0 5%;
+    font-size: calc(1vmin + 8px);
+    border: 2px solid #DDDDDD;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    table-layout: fixed;
+}
+
+.Table-head {
+    display: grid;
+    grid-template-columns:  1fr 15px ;
+    grid-template-areas: "table-head .";
+}
+
+.Scrolling-part {
+    overflow:auto;
+    display: grid;
+    grid-template-columns:  1fr ;
+    grid-template-areas: "table-data";
+}
+
+.Main-table th, td {
+    display: table-cell;
+    width: 6vw;
+    border: 1px solid #DDDDDD;
+    text-align: center;
+    padding: 1.5vh;
+
+}
+.Main-table th {
+    font-weight: normal;
+    background-color: #EEEEEE;
+    color: #888888;
+    cursor: pointer;
+}
+
+.Clickable {
+    cursor: pointer;
+}
+
+.Car-name {
+    text-align: left;
+}
+
+.No-cars-label {
+    text-align: center;
+    padding: 2vh;
+    color: #888888;
+}
+
+.Selected-car {
+    font-weight: bolder;
+    font-size: calc(1vmin + 4px);
+    grid-area: chcar;
+    text-align: left;
+    padding: 1.5vh;
+    margin: 0 calc(5% + 13px) 0 5%;
+    height: 2vh;
+    background-color: #EEEEEE;
+    border: 2px solid #DDDDDD;
+    color: #888888;
+}

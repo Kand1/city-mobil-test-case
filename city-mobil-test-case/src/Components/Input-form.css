@@ -1,0 +1,36 @@
+.Input-form {
+    grid-area: i;
+    display: grid;
+    grid-template-columns:  7fr 0.5vw 1fr 15px ;
+    grid-template-areas: "inp . btn .";
+    margin: 0 5% 0 5%;
+    height: 0;
+}
+
+.Input-form input {
+    grid-area: inp;
+    background-color: #EEEEEE;
+    color: #888888;
+    border: 2px solid #DDDDDD;
+    font-size: calc(1vmin + 8px);
+    padding: 1.5vh;
+
+}
+
+.Input-form input:focus{
+    outline: none;
+}
+
+.Input-form button {
+    grid-area: btn;
+    background-color: #666666;
+    color: #EEEEEE;
+    border-radius: 0;
+    font-size: calc(1vmin + 8px);
+    padding: 1.5vh;
+    border: none;
+}
+
+.Input-form button:active {
+    background-color: #999999;
+}
