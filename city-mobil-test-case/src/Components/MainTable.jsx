@@ -24,10 +24,10 @@ const createSortingFunc = (key, fromLeast) => {
 const filter = (el, filterWord) => {
     let isFiltered = false;
     if (filterWord !== null) {
-        isFiltered = (el.mark + " " + el.model).includes(filterWord);
+        isFiltered = (el.mark + " " + el.model).toLowerCase().includes(filterWord.toLowerCase());
         for (let key in el.tariffs) {
             if (!isFiltered) {
-                isFiltered = String(el.tariffs[key].year).includes(filterWord);
+                isFiltered = String(el.tariffs[key].year).toLowerCase().includes(filterWord.toLowerCase());
             }
         }
     }
