@@ -56,6 +56,7 @@ export const Content = (props) => {
                 <MainTable filterWord = {state.filterWord}
                            carsInfo = {state.carsInfo}
                            sorting = {state.sorting}
+                           selectedCar = {state.selectedCar}
                            setSorting = {setSorting}
                            selectCar = {selectCar}
                 />

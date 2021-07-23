@@ -44,6 +44,10 @@
     cursor: pointer;
 }
 
+.Selected-td {
+    border: 2px solid #BBBBBB;
+}
+
 .Clickable {
     cursor: pointer;
 }
