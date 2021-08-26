@@ -13,7 +13,7 @@
     border: 2px solid #DDDDDD;
     border-collapse: collapse;
     background-color: #FFFFFF;
-    table-layout: fixed;
+    table-layout: auto;
 }
 
 .Table-head {
@@ -23,7 +23,7 @@
 }
 
 .Scrolling-part {
-    overflow:auto;
+    overflow-y: scroll;
     display: grid;
     grid-template-columns:  1fr ;
     grid-template-areas: "table-data";
@@ -31,10 +31,11 @@
 
 .Main-table th, td {
     display: table-cell;
-    width: 6vw;
+    width: 9vw;
     border: 1px solid #DDDDDD;
     text-align: center;
     padding: 1.5vh;
+    box-sizing: border-box;
 
 }
 .Main-table th {
