@@ -1,7 +1,7 @@
 .App {
   display: grid;
   grid-template-columns: 1fr 7fr;
-  grid-template-rows: 12vh 1fr 12vh;
+  grid-template-rows: 12vh 76vh 12vh;
   grid-template-areas: "h h" "s c" "f f";
   color: #666666;
 }
@@ -9,7 +9,7 @@
 .App-header {
   display: flex;
   grid-area: h;
-  background-color: #EEEEEE;
+  background-color: #E1E1E1;
   font-size: calc(10px + 4vmin);
 }
 
