@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/city-mobil-test-case/static/css/main.20a718c4.chunk.css",
-    "main.js": "/city-mobil-test-case/static/js/main.285ab592.chunk.js",
-    "main.js.map": "/city-mobil-test-case/static/js/main.285ab592.chunk.js.map",
+    "main.css": "/city-mobil-test-case/static/css/main.8358ae91.chunk.css",
+    "main.js": "/city-mobil-test-case/static/js/main.ea27341d.chunk.js",
+    "main.js.map": "/city-mobil-test-case/static/js/main.ea27341d.chunk.js.map",
     "runtime-main.js": "/city-mobil-test-case/static/js/runtime-main.392e0fc9.js",
     "runtime-main.js.map": "/city-mobil-test-case/static/js/runtime-main.392e0fc9.js.map",
     "static/js/2.97e035de.chunk.js": "/city-mobil-test-case/static/js/2.97e035de.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.715bb71c.chunk.js": "/city-mobil-test-case/static/js/3.715bb71c.chunk.js",
     "static/js/3.715bb71c.chunk.js.map": "/city-mobil-test-case/static/js/3.715bb71c.chunk.js.map",
     "index.html": "/city-mobil-test-case/index.html",
-    "static/css/main.20a718c4.chunk.css.map": "/city-mobil-test-case/static/css/main.20a718c4.chunk.css.map",
+    "static/css/main.8358ae91.chunk.css.map": "/city-mobil-test-case/static/css/main.8358ae91.chunk.css.map",
     "static/js/2.97e035de.chunk.js.LICENSE.txt": "/city-mobil-test-case/static/js/2.97e035de.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.392e0fc9.js",
     "static/js/2.97e035de.chunk.js",
-    "static/css/main.20a718c4.chunk.css",
-    "static/js/main.285ab592.chunk.js"
+    "static/css/main.8358ae91.chunk.css",
+    "static/js/main.ea27341d.chunk.js"
   ]
 }
