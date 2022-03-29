@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns:  7fr 0.5vw 1fr 15px ;
     grid-template-areas: "inp . btn .";
-    margin: 0 5% 0 5%;
+    margin: 0 5vw 0 5vw;
     height: 0;
 }
 

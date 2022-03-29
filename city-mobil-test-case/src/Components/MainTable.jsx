@@ -120,16 +120,17 @@ export const MainTable = ({filterWord, carsInfo, sorting, selectedCar, selectCar
 
     return (
         <div className="Main-table">
-            <div className="Table-head">
-                <table>
-                    <tr>
-                        {tariffs_list.length !== 0 ? tariffs_list : <div className="No-cars-label">Машин не найдено</div>}
-                    </tr>
-                </table>
-            </div>
+
             <div className="Scrolling-part">
                 <table>
-                    {cars}
+                    <thead>
+                        <tr>
+                            {tariffs_list.length !== 0 ? tariffs_list : <div className="No-cars-label">Машин не найдено</div>}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {cars}
+                    </tbody>
                 </table>
             </div>
         </div>
